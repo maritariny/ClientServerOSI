@@ -9,7 +9,7 @@ public class ClientSocketApp {
     public static void main(String[] args) {
 
         String host = "localhost";
-        int port = 8089;
+        int port = 8090;
 
         try (Socket clientSocket = new Socket(host, port);
             PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true);
